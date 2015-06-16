@@ -1,14 +1,18 @@
 # Site settings
-title: Open Game Center
+title: Open Arcade
 email: brandonpoe@me.com
 description: > # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for
   Google search results) and in your feed.xml site description.
 baseurl: "/" # the subpath of your site, e.g. /blog/
-url: "http://opengamecenter.github.io" # the base hostname & protocol for your site
+url: "http://openarcade.github.io" # the base hostname & protocol for your site
+github_url: "http://github.com/openarcade"
 twitter_username: btpoe
 github_username:  btpoe
 
 # Build settings
 markdown: kramdown
+exclude:
+  - node_modules
+  - gulpfile.js
