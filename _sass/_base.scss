@@ -8,7 +8,9 @@ dl, dd, ol, ul, figure {
     padding: 0;
 }
 
-
+*, *:before, *:after {
+	box-sizing: border-box;
+}
 
 /**
  * Basic styling
@@ -201,4 +203,23 @@ pre {
             fill: $grey-color;
         }
     }
+}
+
+
+.button {
+	font-size: 1em;
+	display: inline-block;
+	padding: .75em 1.5em;
+	border: 0;
+	border-radius: 3px;
+	margin: 1em 0;
+	color: #fff;
+	background-color: #bada55;
+	transition: background .2s;
+
+	&:hover {
+		color: #fff;
+		background-color: lighten(#bada55, 8);
+		text-decoration: none;
+	}
 }

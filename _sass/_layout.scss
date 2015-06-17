@@ -162,7 +162,6 @@
  * Page content
  */
 .page-content {
-    padding: $spacing-unit 0;
 }
 
 .page-heading {
@@ -176,6 +175,12 @@
     > li {
         margin-bottom: $spacing-unit;
     }
+}
+
+.post-hero {
+	width: 100%;
+	display: block;
+	margin-bottom: $spacing-unit;
 }
 
 .post-meta {

@@ -1,0 +1,9 @@
+{
+  "2048": {
+    "title": "2048",
+    "description": "A simple HTML clone of the popular game.",
+    "url": "/2048/",
+    "icon": "http://fullmurray.com/100/100",
+    "hero": true
+  }
+}
