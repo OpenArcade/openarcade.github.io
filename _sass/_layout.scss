@@ -169,11 +169,18 @@
 }
 
 .post-list {
+	font-size: 0;
     margin-left: 0;
     list-style: none;
+	-webkit-overflow-scrolling: touch;
+	overflow-x: auto;
 
     > li {
-        margin-bottom: $spacing-unit;
+	    font-size: 1rem;
+	    width: 25vw;
+	    max-width: ($content-width - ($spacing-unit*2))/4;
+	    display: inline-block;
+	    text-align: center;
     }
 }
 
@@ -190,7 +197,15 @@
 
 .post-link {
     display: block;
-    font-size: 24px;
+    font-size: 14px;
+
+	> img {
+		display: block;
+		margin: auto;
+		width: 120px;
+		height: auto;
+		padding: 0 $spacing-unit/2 5px;
+	}
 }
 
 

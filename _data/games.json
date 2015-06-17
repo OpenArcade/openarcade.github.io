@@ -3,7 +3,12 @@
     "title": "2048",
     "description": "A simple HTML clone of the popular game.",
     "url": "/2048/",
-    "icon": "http://fullmurray.com/100/100",
-    "hero": true
+    "source": "http://github.com/openarcade/2048"
+  },
+  "snake": {
+    "title": "Snake",
+    "description": "A Responsive HTML5 Snake Game with a particle explosion on food impact!",
+    "url": "http://iamchrismiller.github.io/responsive-snake/example/",
+    "source": "https://github.com/iamchrismiller/responsive-snake"
   }
 }
