@@ -5,9 +5,7 @@ layout: default
 <div class="post">
 
     <header class="post-header">
-        {% if game.hero %}
-            <img class="post-hero" src="/img/games/hero/{{ page.game_key }}.jpg" alt="{{ game.title }}"/>
-        {% endif %}
+        <img class="post-hero" src="/img/games/hero/{{ page.game_key }}.jpg" alt="{{ game.title }}"/>
         <h1 class="post-title">{{ page.title }}</h1>
         <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
     </header>
@@ -15,8 +13,10 @@ layout: default
     <article class="post-content">
         {{ content }}
         <div>
-            <a class="button" href="{{ game.url }}">Play {{ game.title }} Now</a>
-            <a class="link" href="{{ game.source }}" target="_blank" style="margin-left: 10px;">view source code</a>
+            <a class="button" href="{{ game.url }}">Play {{ game.title }}</a>
+            {% if game.source %}
+                <a class="link" href="{{ game.source }}" target="_blank" style="margin-left: 15px;">view source code</a>
+            {% endif %}
         </div>
     </article>
 

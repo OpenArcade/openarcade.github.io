@@ -10,5 +10,11 @@
     "description": "A Responsive HTML5 Snake Game with a particle explosion on food impact!",
     "url": "http://iamchrismiller.github.io/responsive-snake/example/",
     "source": "https://github.com/iamchrismiller/responsive-snake"
+  },
+  "tanx": {
+    "title": "tanx",
+    "description": "Multiplayer Tanks Battle. Just give a link to your friend and blow them up!",
+    "url": "http://playcanv.as/p/aP0oxhUr",
+    "source": "https://playcanvas.com/project/45093/overview/tanx"
   }
 }
