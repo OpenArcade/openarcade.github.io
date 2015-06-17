@@ -5,7 +5,9 @@ layout: default
 <div class="post">
 
     <header class="post-header">
-        <img class="post-hero" src="/img/games/hero/{{ page.game_key }}.jpg" alt="{{ game.title }}"/>
+        <div class="post-hero">
+            <img src="/img/games/hero/{{ page.game_key }}.jpg" alt="{{ game.title }}"/>
+        </div>
         <h1 class="post-title">{{ page.title }}</h1>
         <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
     </header>

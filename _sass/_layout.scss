@@ -185,8 +185,12 @@
 }
 
 .post-hero {
-	width: 100%;
-	display: block;
+	// extends .slick-slide
+
+	> img {
+		width: 100%;
+		display: block;
+	}
 }
 
 .post-meta {
