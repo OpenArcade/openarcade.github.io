@@ -3,18 +3,257 @@
     "title": "2048",
     "description": "A simple HTML clone of the popular game.",
     "url": "/2048/",
-    "source": "http://github.com/openarcade/2048"
+    "source": "http://github.com/openarcade/2048",
+    "platforms": ["keyboard", "touch"],
+    "created": "2015-06-14",
+    "license": "MIT",
+    "credits": {
+      "Author": [{
+        "name": "Brandon Poe",
+        "url": "http://brandonpoe.com"
+      }]
+    }
+  },
+  "alges-escapade": {
+    "title": "Alge's Escapade",
+    "description": "Alge has been trapped in Area 51! Help him escape by moving him through the levels to the escape tube at the end.",
+    "url": "http://dave-and-mike.github.io/game-off-2012/",
+    "source": "https://github.com/dave-and-mike/game-off-2012",
+    "platforms": ["keyboard"],
+    "created": "2012-07-15",
+    "license": "Unknown",
+    "credits": {
+      "Author": [{
+        "name": "David North",
+        "url": "https://github.com/hobnob"
+      },{
+        "name": "Lee Reilly",
+        "url": "http://leereilly.net/"
+      }]
+    }
+  },
+  "alien-invasion": {
+    "title": "Alien Invasion",
+    "description": "This is the sample game that is built in the first three chapters of mobile HTML5 Game Development.",
+    "url": "http://cykod.github.io/AlienInvasion/",
+    "source": "https://github.com/cykod/AlienInvasion",
+    "platforms": ["keyboard", "touch"],
+    "created": "2012-01-31",
+    "license": "GPL + MIT",
+    "credits": {
+      "Author": [{
+        "name": "Pascal Rettig",
+        "url": "https://github.com/cykod"
+      }]
+    }
+  },
+  "asteroids": {
+    "title": "Asteroids",
+    "description": "Pure Javascript Asteroids",
+    "url": "http://www.dougmcinnes.com/html-5-asteroids/",
+    "source": "https://github.com/dmcinnes/HTML5-Asteroids",
+    "platforms": ["keyboard"],
+    "created": "2010-01-31",
+    "license": "MIT",
+    "credits": {
+      "Author": [{
+        "name": "Doug McInnes",
+        "url": "https://github.com/dmcinnes"
+      }]
+    }
+  },
+  "ball-and-wall": {
+    "title": "Ball and Wall",
+    "description": "An Arkanoid style game.",
+    "url": "http://budnix.github.io/ball-and-wall/",
+    "source": "https://github.com/budnix/ball-and-wall",
+    "platforms": ["keyboard"],
+    "created": "2015-03-14",
+    "license": "MIT",
+    "credits": {
+      "Author": [
+        {
+          "name": "Krzysztof Budnik",
+          "url": "https://github.com/budnix"
+        }
+      ]
+    }
+  },
+  "change": {
+    "title": "CHANG€",
+    "description": "An intense game about the extreme life of supermarket cashiers.",
+    "url": "http://change-game.herokuapp.com/",
+    "source": "https://github.com/RothschildGames/change",
+    "platforms": ["mouse", "keyboard"],
+    "created": "2013-11-03",
+    "license": "Unknown",
+    "credits": {
+      "Author": [{
+        "name": "Yonatan Bergman",
+        "url": "https://twitter.com/yonbergman"
+      },{
+        "name": "Shay Davidson",
+        "url": "https://twitter.com/shayhdavidson"
+      }]
+    }
+  },
+  "coil": {
+    "title": "Coil",
+    "description": "A game where you defeat enemies by wrapping enemies in your trail.",
+    "url": "http://hakim.se/experiments/html5/coil/",
+    "source": "https://github.com/leereilly/Coil",
+    "platforms": ["mouse", "touch"],
+    "created": "2012-03-25",
+    "license": "MIT",
+    "credits": {
+      "Author": [{
+        "name": "Hakim El Hattab",
+        "url": "https://github.com/hakimel"
+      }]
+    }
+  },
+  "crappy-bird": {
+    "title": "Crappy Bird",
+    "description": "Clone of Flappy Bird game",
+    "url": "http://www.varunpant.com/static/resources/CrappyBird/",
+    "source": "https://github.com/varunpant/CrappyBird",
+    "platforms": ["mouse", "touch"],
+    "created": "2014-04-06",
+    "license": "MIT",
+    "credits": {
+      "Author": [{
+        "name": "Varun Pant",
+        "url": "https://github.com/varunpant"
+      }]
+    }
+  },
+  "custom-tetris": {
+    "title": "Custom Tetris",
+    "description": "Play the classic Tetris game the way you like it! Adjust the rules, change the sides!",
+    "url": "http://ondras.github.io/custom-tetris/",
+    "source": "https://github.com/ondras/custom-tetris",
+    "platforms": ["mouse", "keyboard"],
+    "created": "2013-11-04",
+    "license": "Unknown",
+    "credits": {
+      "Author": [{
+        "name": "Ondřej Žára",
+        "url": "http://ondras.zarovi.cz"
+      }]
+    }
+  },
+  "drakonas": {
+    "title": "Drakonas",
+    "description": "A classic shoot 'em up game. The idea is based on Raptor: Call of the shadows. A classic dos game published by Apogee Software.",
+    "url": "http://www.fellicht.nl/games/drakonas/",
+    "source": "https://github.com/Casmo/Drakonas",
+    "platforms": ["mouse"],
+    "created": "2014-03-30",
+    "license": "MIT",
+    "credits": {
+      "Author": [{
+        "name": "Mathieu",
+        "url": "https://github.com/Casmo"
+      }]
+    }
+  },
+  "fluid-table-tennis": {
+    "title": "Fluid Table Tennis",
+    "description": "Table tennis with fluid dynamics.",
+    "url": "http://anirudhjoshi.github.io/fluid_table_tennis/",
+    "source": "https://.github.com/anirudhjoshi/fluid_table_tennis",
+    "platforms": ["keyboard"],
+    "created": "2012-09-08",
+    "license": "Copyrighted",
+    "credits": {
+      "Author": [{
+        "name": "anirudhjoshi",
+        "url": "https://github.com/anirudhjoshi"
+      }]
+    }
+  },
+  "hextris": {
+    "title": "Hextris",
+    "description": "A fast paced puzzle game inspired by Tetris",
+    "url": "http://hextris.io/",
+    "source": "https://github.com/Hextris/hextris",
+    "platforms": ["mouse", "keyboard", "touch"],
+    "created": "2014-05-17",
+    "license": "GPL v3",
+    "credits": {
+      "Contributors": [{
+        "name": "Logan Engstrom",
+        "url": "https://github.com/meadowstream"
+      },{
+        "name": "Garrett Finucane",
+        "url": "https://github.com/garrettdreyfus"
+      },{
+        "name": "Noah Moroze",
+        "url": "https://github.com/nmoroze"
+      },{
+        "name": "Michael Yang",
+        "url": "https://github.com/themichaelyang"
+      }]
+    }
+  },
+  "ludumdare29": {
+    "title": "LudumDare29",
+    "description": "The Dream Show Adventures team submission for LD29.",
+    "url": "http://dreamshowadventures.github.io/LudumDare29/",
+    "source": "https://github.com/DreamShowAdventures/LudumDare29",
+    "platforms": ["keyboard"],
+    "created": "2014-04-17",
+    "license": "Copyrighted",
+    "credits": {
+      "Author": [{
+        "name": "Steve Richey",
+        "url": "https://github.com/steverichey"
+      }]
+    }
+  },
+  "mode": {
+    "title": "Mode",
+    "description": "A small (but sadly not that simple) demo game built on the flixel framework.",
+    "url": "http://www.adamatomic.com/mode/",
+    "source": "https://github.com/AdamAtomic/Mode",
+    "platforms": ["keyboard"],
+    "created": "2009-10-18",
+    "license": "MIT",
+    "credits": {
+      "Author": [{
+        "name": "Adam Saltsman",
+        "url": "https://github.com/AdamAtomic"
+      }]
+    }
   },
   "snake": {
     "title": "Snake",
     "description": "A Responsive HTML5 Snake Game with a particle explosion on food impact!",
     "url": "http://iamchrismiller.github.io/responsive-snake/example/",
-    "source": "https://github.com/iamchrismiller/responsive-snake"
+    "source": "https://github.com/iamchrismiller/responsive-snake",
+    "platforms": ["keyboard", "touch"],
+    "created": "2014-06-17",
+    "license": "MIT",
+    "credits": {
+      "Author": [{
+        "name": "Chris Miller",
+        "url": "http://chris-miller.me"
+      }]
+    }
   },
   "tanx": {
     "title": "tanx",
     "description": "Multiplayer Tanks Battle. Just give a link to your friend and blow them up!",
     "url": "http://playcanv.as/p/aP0oxhUr",
-    "source": "https://playcanvas.com/project/45093/overview/tanx"
+    "source": "https://playcanvas.com/project/45093/overview/tanx",
+    "platforms": ["mouse + keyboard", "touch"],
+    "created": "2014-06-07",
+    "license": "Unknown",
+    "credits": {
+      "Author": [{
+        "name": "Maksims Mihejevs",
+        "url": "http://moka.co"
+      }]
+    }
   }
 }
