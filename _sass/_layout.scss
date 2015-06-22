@@ -170,10 +170,12 @@
 
 .post-list {
 	font-size: 0;
-    margin-left: 0;
     list-style: none;
 	-webkit-overflow-scrolling: touch;
 	overflow-x: auto;
+	white-space: nowrap;
+	padding-bottom: 1rem;
+	margin: 0 0 1rem;
 
     > li {
 	    font-size: 1rem;

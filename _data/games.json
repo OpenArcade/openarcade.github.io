@@ -114,7 +114,7 @@
   },
   "crappy-bird": {
     "title": "Crappy Bird",
-    "description": "Clone of Flappy Bird game",
+    "description": "Clone of Flappy Bird game.",
     "url": "http://www.varunpant.com/static/resources/CrappyBird/",
     "source": "https://github.com/varunpant/CrappyBird",
     "platforms": ["mouse", "touch"],
@@ -174,7 +174,7 @@
   },
   "hextris": {
     "title": "Hextris",
-    "description": "A fast paced puzzle game inspired by Tetris",
+    "description": "A fast paced puzzle game inspired by Tetris.",
     "url": "http://hextris.io/",
     "source": "https://github.com/Hextris/hextris",
     "platforms": ["mouse", "keyboard", "touch"],
@@ -242,7 +242,7 @@
     }
   },
   "tanx": {
-    "title": "tanx",
+    "title": "TANX",
     "description": "Multiplayer Tanks Battle. Just give a link to your friend and blow them up!",
     "url": "http://playcanv.as/p/aP0oxhUr",
     "source": "https://playcanvas.com/project/45093/overview/tanx",

@@ -12,7 +12,7 @@ twitter_username: btpoe
 github_username:  btpoe
 
 # Build settings
-permalink: /:categories/:title/
+permalink: /games/:title/
 markdown: kramdown
 exclude:
   - node_modules
