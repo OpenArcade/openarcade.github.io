@@ -1,10 +1,10 @@
 # Site settings
 title: Open Arcade
 email: brandonpoe@me.com
-description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+description: >
+  Open Arcade is a collection of ad-free open source games
+  that are capable of running in most modern browsers.
+  Most games are both desktop and mobile compatible.
 baseurl: ""
 url: "http://openarcade.github.io"
 github_url: "http://github.com/openarcade"
